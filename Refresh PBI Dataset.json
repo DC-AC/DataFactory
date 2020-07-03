@@ -330,7 +330,8 @@
         },
         "variables": {
             "RefreshStatus": {
-                "type": "String"
+                "type": "String",
+                "defaultValue": "Unknown"
             }
         },
         "annotations": []
