@@ -35,9 +35,7 @@
                     },
                     "body": {
                         "helloww": "worldddd"
-                    },
-                    "linkedServices": [],
-                    "datasets": []
+                    }
                 }
             },
             {
@@ -218,9 +216,7 @@
                                 },
                                 "body": {
                                     "helloww": "worldddd"
-                                },
-                                "linkedServices": [],
-                                "datasets": []
+                                }
                             }
                         },
                         {
@@ -261,7 +257,7 @@
                 "type": "IfCondition",
                 "dependsOn": [
                     {
-                        "activity": "Until1",
+                        "activity": "Until Refresh Complete",
                         "dependencyConditions": [
                             "Succeeded"
                         ]
